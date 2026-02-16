@@ -8,9 +8,10 @@ import AboutSection from "./components/AboutSection";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
 import EducationExperience from  "./components/EducationExperience"
-import ComponentSection from "./components/ComponentSection";
+import ComponentSection from "./components/componentSection";
 import Footer from "./components/Footer";
 import { Certificates } from "./components/Certificates";
+import ProgressBar from "./components/ProgressBar";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function App() {
@@ -37,6 +38,8 @@ export default function App() {
       <Certificates />
       <ComponentSection/>
       <Footer />
+      <ProgressBar />
+      
       
       
     </>
