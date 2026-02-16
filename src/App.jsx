@@ -8,7 +8,7 @@ import AboutSection from "./components/AboutSection";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
 import EducationExperience from  "./components/EducationExperience"
-import ComponentSection from "./components/componentSection";
+import ComponentSection from "./components/ComponentSection";
 import Footer from "./components/Footer";
 import { Certificates } from "./components/Certificates";
 gsap.registerPlugin(ScrollTrigger);
